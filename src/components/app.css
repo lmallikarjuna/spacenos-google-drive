@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+#root {
+  height: 100%;
+}
+
+.nav-container {
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.nav-container > button {
+  background-color: #52057b;
+  color: white;
+  padding: .3rem 1rem;
+  border-radius: 3px;
+  border: none;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width:500px;
+  max-height:600px;
+  width:auto;
+  height:auto;
+}
+
+main {
+  height: 100%;
+  background-color: #892cdc;
+}
+
+.documents-list-and-view-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.document-list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 30%;
+}
+
+.please-login {
+  font-family: 'PT Serif', serif;
+  font-size: 3rem;
+  border: solid 2px green;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.document-container {
+  font-family: 'PT Serif', serif;
+  height: max-content;
+  padding: 1rem;
+  background-color: #bc6ff1;
+  margin: .4rem;
+  border-radius: 3px;
+}
+
+.document-container:hover {
+  cursor: pointer;
+}
+
+.view-document-container {
+  width: 70%;
+}
+
+.view-document-container > iframe {
+  border: none;
+}
+
+.view {
+  height: 100%;
+  width: 100%;
+}
